@@ -28,9 +28,17 @@ function New () {
           <br />
           <input type="submit"/>
         </form>
-        <div className='backButton'>
-            <a href="/breads">Go back to the index</a>
+        <div className="newButton">
+           <a href="/breads/new"><button>Add a new bread</button></a>
         </div>
+
+        {/* <div className='backButton'>
+            <a href="/breads"><button></button>Go back to the index</buttton></a>
+        </div> */}
+        <div className="backButton">
+          <a href="/breads"><button>Go back to the index</button></a>
+        </div>
+
       </Default>
     )
 }
